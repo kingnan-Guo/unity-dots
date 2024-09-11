@@ -17,11 +17,6 @@ public struct PrefabConfig : IComponentData
 {
     public Entity PrefabEntity;
 }
-public struct EntityName : IComponentData
-{
-    public string name;
-}
-
 public class PrefabConfigAuthoring : MonoBehaviour
 {
     public GameObject Prefab;
