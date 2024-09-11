@@ -77,7 +77,12 @@
     <Analyzer Include="/Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/预制体entity/mainManager.cs" />
+    <Compile Include="Assets/Scripts/预制体entity/GetPrefabAuthoring.cs" />
+    <Compile Include="Assets/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/预制体entity/ConfigAuthoring.cs" />
+    <Compile Include="Assets/Scripts/预制体entity/PrefabConfigAuthoring.cs" />
+    <Compile Include="Assets/Scripts/cameraPosition.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
