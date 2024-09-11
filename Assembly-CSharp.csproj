@@ -32,7 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoStandardLibraries>true</NoStandardLibraries>
@@ -80,9 +80,23 @@
     <Compile Include="Assets/Scripts/预制体entity/mainManager.cs" />
     <Compile Include="Assets/Scripts/预制体entity/GetPrefabAuthoring.cs" />
     <Compile Include="Assets/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/把组件添加到Entity/testAuthoring.cs" />
+    <Compile Include="Assets/Scripts/特性实现实例化/NewBehaviourScript.cs" />
     <Compile Include="Assets/Scripts/预制体entity/ConfigAuthoring.cs" />
+    <Compile Include="Assets/Scripts/指针/point.cs" />
+    <Compile Include="Assets/Scripts/Component概述/Authoring/rootComponentAuthoring.cs" />
+    <Compile Include="Assets/Scripts/把组件添加到Entity/printComponentData.cs" />
+    <Compile Include="Assets/Scripts/批量创建物体/batchAuthoring.cs" />
+    <Compile Include="Assets/Scripts/System与systemGroup概述/GameSystem.cs" />
+    <Compile Include="Assets/Scripts/刚体控制/TargetAuthoring.cs" />
+    <Compile Include="Assets/Scripts/Component概述/ComponentTest.cs" />
+    <Compile Include="Assets/Scripts/把组件添加到Entity/printSystemOne.cs" />
     <Compile Include="Assets/Scripts/预制体entity/PrefabConfigAuthoring.cs" />
     <Compile Include="Assets/Scripts/cameraPosition.cs" />
+    <Compile Include="Assets/Scripts/Baking/BakingTest.cs" />
+    <Compile Include="Assets/Scripts/刚体控制/MoveingBodyAthoring.cs" />
+    <Compile Include="Assets/Scripts/把组件添加到Entity/testAuthoringTwo.cs" />
+    <Compile Include="Assets/Scripts/批量创建物体/EntityGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

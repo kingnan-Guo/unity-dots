@@ -28,12 +28,12 @@ public class cameraPosition : MonoBehaviour
 
         camera = GetComponent<Camera>();
         // transform.position = new Vector3(0, 0, 0);
-        transform.position = new Vector3(0,0, -10);
+        transform.position = new Vector3(70,0, -250);
 
 
 
         // Rotion_Transform = new Vector3(0, 0, 0);
-        Rotion_Transform = new Vector3(0, 0, 0);
+        Rotion_Transform = new Vector3(70, 0, 0);
         // camera.transform.LookAt(Rotion_Transform);
         // 创建 cube
         LookAtCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -45,10 +45,10 @@ public class cameraPosition : MonoBehaviour
         LookAtCube.name = "LookAtCube";
 
 
-        // transform.RotateAround(LookAtCube.transform.position, Vector3.right, 20);
-        // transform.RotateAround(LookAtCube.transform.position, Vector3.up, -36);
+        transform.RotateAround(LookAtCube.transform.position, Vector3.right, 20);
+        transform.RotateAround(LookAtCube.transform.position, Vector3.up, -36);
 
-        // LookAtCube.transform.Rotate(Vector3.up, -36);
+        LookAtCube.transform.Rotate(Vector3.up, -36);
         // transform.RotateAround(LookAtCube.transform.position, Vector3.right, 20);
         // transform.RotateAround(LookAtCube.transform.position, Vector3.up, -36);
 
