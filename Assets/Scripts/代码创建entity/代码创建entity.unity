@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fff26957c857b4b44946abb03bb7c2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  mesh: {fileID: 339337634658271121, guid: b52db3036a133de4794098566ba9d30b, type: 3}
   material: {fileID: 2100000, guid: bca4b43a546b34edda89bef9f6710087, type: 2}
 --- !u!4 &674615914
 Transform:
