@@ -1,0 +1,33 @@
+{
+    "errMsg": "",
+    "code": "0",
+    "data": {
+        "nextPage": -1,
+        "totalCount": 1,
+        "pageData": [{
+            "deviceName": "测试探测器",
+            "imei": "6725053760760052",
+            "deviceCategory": 1,
+            "modelType": "130",
+            "modelTypeName": "市电探测器",
+            "parentModelId": "mainMap(Clone)",
+            "isLabeled": 1,
+            "position": {
+                "positionX": 121.774559,
+                "positionY": 0.0246130414,
+                "positionZ": -63.40192
+            },
+            "scale": {
+                "scaleX": 8.0,
+                "scaleY": 8.0,
+                "scaleZ": 8.0
+            },
+            "rotate": {
+                "rotateX": 0.0,
+                "rotateY": 0.0,
+                "rotateZ": 0.0
+            }
+        }]
+    },
+    "success": "true"
+}

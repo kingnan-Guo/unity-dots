@@ -77,28 +77,91 @@
     <Analyzer Include="/Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/预制体entity/mainManager.cs" />
-    <Compile Include="Assets/Scripts/预制体entity/GetPrefabAuthoring.cs" />
-    <Compile Include="Assets/Scripts/Readme.cs" />
-    <Compile Include="Assets/Scripts/把组件添加到Entity/testAuthoring.cs" />
-    <Compile Include="Assets/Scripts/特性实现实例化/NewBehaviourScript.cs" />
-    <Compile Include="Assets/Scripts/代码创建entity/CreateWaveCubesWithMonobehavior.cs" />
-    <Compile Include="Assets/Scripts/代码创建entity/createEntityWithMonobehavior.cs" />
-    <Compile Include="Assets/Scripts/预制体entity/ConfigAuthoring.cs" />
-    <Compile Include="Assets/Scripts/指针/point.cs" />
-    <Compile Include="Assets/Scripts/Component概述/Authoring/rootComponentAuthoring.cs" />
-    <Compile Include="Assets/Scripts/把组件添加到Entity/printComponentData.cs" />
-    <Compile Include="Assets/Scripts/批量创建物体/batchAuthoring.cs" />
-    <Compile Include="Assets/Scripts/System与systemGroup概述/GameSystem.cs" />
-    <Compile Include="Assets/Scripts/刚体控制/TargetAuthoring.cs" />
-    <Compile Include="Assets/Scripts/Component概述/ComponentTest.cs" />
-    <Compile Include="Assets/Scripts/把组件添加到Entity/printSystemOne.cs" />
-    <Compile Include="Assets/Scripts/预制体entity/PrefabConfigAuthoring.cs" />
-    <Compile Include="Assets/Scripts/cameraPosition.cs" />
-    <Compile Include="Assets/Scripts/Baking/BakingTest.cs" />
-    <Compile Include="Assets/Scripts/刚体控制/MoveingBodyAthoring.cs" />
-    <Compile Include="Assets/Scripts/把组件添加到Entity/testAuthoringTwo.cs" />
-    <Compile Include="Assets/Scripts/批量创建物体/EntityGenerator.cs" />
+    <Compile Include="Assets/Scripts/project/PrefabsScripts/Axes/AxesBaseClass.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/normalData/networkDeviceListClass.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/ScriptableObject/tableDataTest.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/About_SQL/BaseData.cs" />
+    <Compile Include="Assets/Scenes/Gameobject避障/GameObjectRVO2/Charactor.cs" />
+    <Compile Include="Assets/Scripts/baseProject/事件中心/EventCenter.cs" />
+    <Compile Include="Assets/Scripts/baseProject/network网络/networkManager.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/Components/Bridges.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/ScriptableObject/deviceTableData.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/About_SQL/device_info_data.cs" />
+    <Compile Include="Assets/Scripts/baseProject/加载AB包/ABManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/JsonDataManager/JsonDataManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/单例/自动对象MonoBehaviour单例/SingletonAutoMono.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/normalData/gloabCameraLookAtInfo.cs" />
+    <Compile Include="Assets/Scripts/project/common/globalUtils.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/ModelHelp.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/InputSystem.cs" />
+    <Compile Include="Assets/Scripts/baseProject/network网络/networkBaseClass.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/SQLiteTest.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/DotsCommon/CustomSceneSystemGroup.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/SQLiteDBCommand.cs" />
+    <Compile Include="Assets/Scripts/project/PrefabsScripts/Axes/ScaleAxes.cs" />
+    <Compile Include="Assets/Scripts/project/PrefabsScripts/Axes/Axis.cs" />
+    <Compile Include="Assets/Scripts/project/GameMainManager/mainManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/输入控制模块/InputMgr.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/gloabVariable/gloab_EventCenter_Name.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/PlayerPrefs/PlayerPrefsTest.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/MainSystemBase.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoInputSystem.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoPrefabAuthoring.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/About_SQL/customClass.cs" />
+    <Compile Include="Assets/Scripts/baseProject/单例/MonoBehaviour单例基类/singletonMono.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoChangePositionSystem.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoSingleMethod.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/GameObjectManager/mainEventHandler.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/gloabVariable/gloab_URL.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/SQLiteDBConnect.cs" />
+    <Compile Include="Assets/Scenes/RVOSamples/Demos/ORCASimpleDemo.cs" />
+    <Compile Include="Assets/Scripts/baseProject/加载AB包/loadAB.cs" />
+    <Compile Include="Assets/Scripts/baseProject/切换场景/ScenceMgr.cs" />
+    <Compile Include="Assets/Scenes/Gameobject避障/GameObjectRVO2/Boots.cs" />
+    <Compile Include="Assets/Scripts/baseProject/公共Mono模块/MonoController.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/gloabVariable/gloab_static_data.cs" />
+    <Compile Include="Assets/Scripts/project/common/Loom.cs" />
+    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/SQLite.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/prefabAuthoring.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/About_SQL/deviceInfoData.cs" />
+    <Compile Include="Assets/Scripts/project/GameMainManager/modules/操作system或者systemBase/customEventHandler.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoBridges.cs" />
+    <Compile Include="Assets/Scenes/RVOSamples/SetupRing/ORCASetupRing.cs" />
+    <Compile Include="Assets/Scripts/baseProject/单例/baseManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/事件中心/EventCenterOptimize.cs" />
+    <Compile Include="Assets/Scripts/baseProject/IgnoreStart/NoSplashImage.cs" />
+    <Compile Include="Assets/Scripts/baseProject/事件中心/EventCenterOptimizes.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/normalData/buildingList.cs" />
+    <Compile Include="Assets/Scripts/project/PrefabsScripts/Axes/RotateAxes.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/SQLite/deviceInfoClass.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoMainPrefabSystem.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/changeLocalTransformSystemBase.cs" />
+    <Compile Include="Assets/Scripts/project/GameMainManager/modules/获取json的数据/receiveDataFromJson.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/MainSystem.cs" />
+    <Compile Include="Assets/Scripts/project/GameMainManager/GameMainManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/公共Mono模块/MonoManager.cs" />
+    <Compile Include="Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/changeLocalTransformSystem.cs" />
+    <Compile Include="Assets/Scripts/baseProject/资源加载模块/ResourcesManager.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/normalData/deviceInfoParams.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/gloabVariable/gloabNetWorkConfig.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/gloabVariable/gloab_TagName.cs" />
+    <Compile Include="Assets/Scripts/baseProject/加载AB包/networkLoadABManager.cs" />
+    <Compile Include="Assets/Scripts/baseProject/加载AB包/loadABDemo.cs" />
+    <Compile Include="Assets/Scenes/RVOSamples/Setup/ORCASetup.cs" />
+    <Compile Include="Assets/Scripts/project/PrefabsScripts/Axes/moveAxes.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/About_SQL/BaseDataClass.cs" />
+    <Compile Include="Assets/Scripts/project/GameMainManager/modules/接收点击的entity 的位置/receiveDataFromEntities.cs" />
+    <Compile Include="Assets/Scenes/Gameobject避障/GameObjectRVO2/RVOWapper.cs" />
+    <Compile Include="Assets/Scripts/project/camera/cameraPosition.cs" />
+    <Compile Include="Assets/Scripts/baseProject/输入控制模块/InputDemo.cs" />
+    <Compile Include="Assets/Scripts/project/common/GlobalModel/Data/normalData/equipmentBaseClass.cs" />
+    <Compile Include="Assets/Scenes/Dots避障/DotsRVOV2Script/rvoBoots.cs" />
+    <Compile Include="Assets/Scripts/baseProject/资源加载模块/ResourcesMgr.cs" />
+    <Compile Include="Assets/Scripts/baseProject/DataStorage/ScriptableObject/ScripTableObjectDemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Resources/Materials/箭头材质/arrowShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -541,12 +604,20 @@
       <HintPath>/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="AXES">
+      <HintPath>Assets/plugins/AXES/AXES.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library/PackageCache/com.unity.collections@2.4.3/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@2.0.5/net40/unity-custom/nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets/plugins/SQLite/Mono.Data.Sqlite.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -1065,12 +1136,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+    <Reference Include="Unity.Jobs">
+      <HintPath>Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
@@ -1323,6 +1398,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Nebukam.JobAssist.csproj" />
+    <ProjectReference Include="Nebukam.ORCA.csproj" />
+    <ProjectReference Include="Nebukam.Common.csproj" />
+    <ProjectReference Include="Nebukam.Common.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

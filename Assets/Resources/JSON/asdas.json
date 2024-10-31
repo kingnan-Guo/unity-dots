@@ -1,0 +1,24 @@
+[{
+    "deviceCategory": 1,
+    "deviceName": "测试探测器",
+    "imei": "6725053760760052",
+    "isLabeled": null,
+    "modelType": "130",
+    "modelTypeName": "市电探测器",
+    "parentModelId": "mainMap(Clone)",
+    "position": {
+        "positionX": 130.384857,
+        "positionY": 0.0246130433,
+        "positionZ": -62.8156433
+    },
+    "rotate": {
+        "rotateX": -0,
+        "rotateY": -0,
+        "rotateZ": -0
+    },
+    "scale": {
+        "scaleX": 8,
+        "scaleY": 8,
+        "scaleZ": 8
+    }
+}]

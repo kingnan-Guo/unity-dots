@@ -1,0 +1,53 @@
+{
+    "errMsg": "",
+    "code": "0",
+    "data": {
+        "nextPage": -1,
+        "totalCount": 3,
+        "pageData": [{
+            "deviceName": "testA",
+            "imei": "1000005",
+            "deviceCategory": 0,
+            "modelType": "133",
+            "modelTypeName": "物联网传输装置",
+            "isLabeled": 0,
+            "position": {},
+            "scale": {},
+            "rotate": {}
+        }, {
+            "deviceName": "测试主机",
+            "imei": "1000004",
+            "deviceCategory": 0,
+            "modelType": "129",
+            "modelTypeName": "用户信息传输装置",
+            "parentModelId": "123",
+            "isLabeled": 1,
+            "position": {
+                "positionX": 1.28,
+                "positionY": 1.19,
+                "positionZ": 1.22
+            },
+            "scale": {
+                "scaleX": 2.23,
+                "scaleY": 2.25,
+                "scaleZ": 2.28
+            },
+            "rotate": {
+                "rotateX": 3.56,
+                "rotateY": 3.69,
+                "rotateZ": 3.88
+            }
+        }, {
+            "deviceName": "cs",
+            "imei": "1000003",
+            "deviceCategory": 0,
+            "modelType": "13677",
+            "modelTypeName": "物联网数据采集终端",
+            "isLabeled": 0,
+            "position": {},
+            "scale": {},
+            "rotate": {}
+        }]
+    },
+    "success": "true"
+}
