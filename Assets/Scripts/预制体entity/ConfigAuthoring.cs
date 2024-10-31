@@ -21,6 +21,7 @@ using Unity.Physics.Systems;
 public struct Config : IComponentData
 {
     public EntityPrefabReference PrefabReference;
+    public int id;
     // public string EntityName;
 }
 

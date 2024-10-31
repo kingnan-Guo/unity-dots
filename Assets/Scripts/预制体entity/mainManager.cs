@@ -27,5 +27,17 @@ public class mainManager : MonoBehaviour
 
         }
 
+        {
+
+
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit[] hits = new RaycastHit[1];
+            if (Physics.RaycastNonAlloc(ray, hits, 1000) > 0){
+                Debug.Log("getGameObject =="+hits[0].collider.name);
+            }
+               
+
+        }
+
     }
 }
