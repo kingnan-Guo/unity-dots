@@ -35,7 +35,7 @@ public class createEntityWithMonobehavior : MonoBehaviour
             MaterialMeshInfo.FromRenderMeshArrayIndices(0, 0)
         );
 
-        entityManager.SetComponentData(cubeEntity, new LocalToWorld{Value = float4x4.identity});
+        // entityManager.SetComponentData(cubeEntity, new LocalToWorld{Value = float4x4.identity});
 
 
     }

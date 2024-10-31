@@ -82,6 +82,7 @@
     <Compile Include="Assets/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/把组件添加到Entity/testAuthoring.cs" />
     <Compile Include="Assets/Scripts/特性实现实例化/NewBehaviourScript.cs" />
+    <Compile Include="Assets/Scripts/代码创建entity/CreateWaveCubesWithMonobehavior.cs" />
     <Compile Include="Assets/Scripts/代码创建entity/createEntityWithMonobehavior.cs" />
     <Compile Include="Assets/Scripts/预制体entity/ConfigAuthoring.cs" />
     <Compile Include="Assets/Scripts/指针/point.cs" />
